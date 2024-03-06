@@ -57,6 +57,7 @@ void LoginWindow::on_login_push_button_clicked()
 
 void LoginWindow::on_register_push_button_clicked()
 {
-
+    RegisterWindow *registerWindow = new RegisterWindow(this);
+    registerWindow->show();
 }
 
