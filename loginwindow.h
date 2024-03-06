@@ -16,7 +16,8 @@ class LoginWindow : public QMainWindow
 public:
     LoginWindow(QWidget *parent = nullptr);
     ~LoginWindow();
-
+public slots:
+    void on_loginPushButtonClicked();
 private slots:
     void on_login_push_button_clicked();
 
