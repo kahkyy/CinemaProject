@@ -14,9 +14,10 @@ class RegisterWindow : public QDialog
 public:
     explicit RegisterWindow(QWidget *parent = nullptr);
     ~RegisterWindow();
-
+private slots:
+    void handleRegisterButtonClicked();  
 private:
     Ui::RegisterWindow *ui;
 };
 
-#endif // REGISTERWINDOW_H
+#endif 
